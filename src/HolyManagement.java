@@ -4,12 +4,12 @@ public class HolyManagement {
 
         Hell hell = new Hell(1000, 800, "Devil");
         Paradise paradise = new Paradise(true);
-        Paradise.Angel marika = paradise.addAngel("FancyAngel", "Marika");
-        Hell.Demon ozuna = hell.addDemon(5, "Torture", "Ozuna");
-        marika.fly();
-        ozuna.info();
-        marika.info();
-        ozuna.fight();
+        Paradise.Angel francisco = paradise.addAngel("FancyAngel", "Marika");
+        Hell.Demon rafa = hell.addDemon(5, "Torture", "Ozuna");
+        francisco.fly();
+        rafa.info();
+        francisco.info();
+        rafa.fight();
 
     }
 }
